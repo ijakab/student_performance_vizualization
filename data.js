@@ -1,5 +1,5 @@
 const numericFields = {
-    age: 'Broj godin',
+    age: 'Broj godina',
     Medu: 'Edukacija majke',
     Fedu: 'Edukacija oca',
     traveltime: 'Vrijeme putovanja',
