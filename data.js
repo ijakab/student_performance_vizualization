@@ -18,3 +18,20 @@ const keywords = {
     activities: 'Izvannastavne aktivnosti',
     higher: 'Zeli nastaviti školovanje',
 }
+
+class Analyzer {
+    constructor(props) {
+        this.filters = [];
+    }
+    
+    getNumericPoints(field1, field2) {
+        const raw = dataset.map(d => {
+            return {
+                x: d[field1],
+                y: d[field2]
+            }
+        })
+        raw.sort(function(a, b){return a.x-b.x});
+        return raw
+    }
+}
