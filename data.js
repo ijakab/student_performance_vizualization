@@ -54,8 +54,22 @@ class Analyzer {
         this.getFilterHtml()
     }
     
+    getFilteredSubset() {
+        if(!this.filters.length) return dataset
+        return dataset.filter(d => {
+            for(const filter of this.filters) {
+                const valueToCheck = d[filter.field]
+                const targetValue = filter.value
+                if(filter.operator === 'equals' && valueToCheck != targetValue) return false
+                if(filter.operator === 'greater than' && valueToCheck <= targetValue) return false
+                if(filter.operator === 'less than' && valueToCheck >= targetValue) return false
+            }
+            return true
+        })
+    }
+    
     getNumericPoints(field1, field2) {
-        const raw = dataset.map(d => {
+        const raw = this.getFilteredSubset().map(d => {
             return {
                 x: d[field1],
                 y: d[field2]
