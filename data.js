@@ -19,9 +19,39 @@ const keywords = {
     higher: 'Zeli nastaviti školovanje',
 }
 
+const allFields = {
+    ...numericFields,
+    ...keywords
+}
+
 class Analyzer {
-    constructor(props) {
-        this.filters = [];
+    constructor(filterContainer) {
+        this.filterContainer = filterContainer
+        this.filters = [{
+            field: 'G3',
+            operator: 'greater than',
+            value: 10
+        }];
+    }
+    
+    addFilter(filter) {
+        this.filters.push(filter)
+        this.getFilterHtml()
+    }
+    
+    getFilterHtml() {
+        let i = -1
+        const htmlArr = this.filters.map(filter => {
+            i++
+            return `<span class="badge badge-danger" data-index="${i}">${allFields[filter.field]} ${filter.operator} ${filter.value} X</span>`
+        })
+        this.filterContainer.innerHTML = htmlArr.join(' ');
+    }
+    
+    removeFilter(element) {
+        const index = element.getAttribute('data-index')
+        this.filters.splice(index, 1)
+        this.getFilterHtml()
     }
     
     getNumericPoints(field1, field2) {

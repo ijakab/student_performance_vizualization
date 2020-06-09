@@ -10,27 +10,22 @@
 <div class="container">
     <br>
 
-    <form class="form-inline">
+    <form class="form-inline" id="filterForm">
         <div class="input-group mb-2 mr-sm-2">
-            <select class="form-control">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+            <select class="form-control" id="filterFieldSelect">
             </select>
         </div>
 
         <div class="input-group mb-2 mr-sm-2">
-            <select class="form-control">
-                <option>Equals</option>
-                <option>More than</option>
-                <option>Less than</option>
+            <select class="form-control" id="filterOperatorSelect">
+                <option value="equals">Equals</option>
+                <option value="greater than">More than</option>
+                <option value="less than">Less than</option>
             </select>
         </div>
 
         <div class="input-group mb-2 mr-sm-2">
-            <input type="text" class="form-control" placeholder="Value">
+            <input type="text" class="form-control" placeholder="Value" id="filterValueSelect" required>
         </div>
 
         <button type="submit" class="btn btn-primary mb-2">Add filter</button>
@@ -38,7 +33,7 @@
 
     <br>
 
-    <div>
+    <div id="filter-container">
         <span class="badge badge-danger">Something equals 5 X</span>
         <span class="badge badge-danger">Something equals 4 X</span>
     </div>
