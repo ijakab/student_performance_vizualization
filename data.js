@@ -83,4 +83,14 @@ class Analyzer {
             yField: allFields[field2]
         }
     }
+    
+    getBarData(field) {
+        const final = {}
+        for (const row of this.getFilteredSubset()) {
+            const value = row[field]
+            if(final[value]) final[value] ++
+            else final[value] = 1
+        }
+        return final
+    }
 }

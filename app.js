@@ -24,9 +24,9 @@ window.onload = function () {
         e.preventDefault()
         const field1 = getSelectValue(numericField1)
         const field2 = getSelectValue(numericField2)
-        const data = analyzer.getNumericPoints(field1, field2)
-        console.log(data)
-        drawer.drawLineChart(data)
+        const scatterData = analyzer.getNumericPoints(field1, field2)
+        const barData = analyzer.getBarData(field1)
+        drawer.draw(scatterData, barData)
     }, false)
     
     filterForm.addEventListener('submit', function (e) {
