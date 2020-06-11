@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+
+        .axis {
+            font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+    </style>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="data.js"></script>
+</head>
+<body>
+
+
+<script>
+
+    window.onload = function () {
+        const data = dataSource.map(d => d.NH3)
+
+        var margin = {top: 20, bottom: 70, left:40, right: 20};
+        var width = 500 - margin.left - margin.right;
+        var height = 500 - margin.top - margin.bottom;
+        var barPadding = 4;
+        var barWidth = width / data.length - barPadding;
+
+        var x = d3.scale.ordinal()
+            .domain(d3.range(data.length))
+            .rangeRoundBands([0, width]);
+        var y = d3.scale.linear()
+            .domain([0, d3.max(data)])
+            .range([height, 0]);
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.bottom + margin.top)
+            .style("background-color", "lightblue")
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom")
+            .tickFormat(function(d, i) { return i + 1; });
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left")
+            .ticks(10);
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis)
+            .selectAll("text")
+            .style("text-anchor", "middle");
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text("Vrijednost");
+
+        var barchart = svg.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("x", function(d, i) { return x(i); })
+            .attr("y", y) .attr("height", function(d) { return height - y(d); })
+            .attr("width", barWidth)
+            .attr("fill", "blue");
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis);
+        svg.append("text")
+            .attr("x", (width / 2))
+            .attr("y", (height + (margin.bottom / 2)))
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Dan u mjesecu");
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis);
+        svg.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("x",0 - (height / 2))
+            .attr("y", 0 - margin.left)
+            .attr("dy", "1em")
+            .style("text-anchor", "middle")
+            .text("Kolicina NH3 cestica (mikrogram/m3)");
+    }
+
+</script>
+</body>

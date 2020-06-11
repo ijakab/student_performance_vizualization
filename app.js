@@ -1,3 +1,5 @@
+const svgW = 500, svgH = 500;
+
 window.onload = function () {
     const numericField1 = document.getElementById('numericSelect1')
     const numericField2 = document.getElementById('numericSelect2')
@@ -22,7 +24,8 @@ window.onload = function () {
         e.preventDefault()
         const field1 = getSelectValue(numericField1)
         const field2 = getSelectValue(numericField2)
-        console.log(analyzer.getNumericPoints(field1, field2))
+        const data = analyzer.getNumericPoints(field1, field2)
+        drawer.drawLineChart(data)
     }, false)
     
     filterForm.addEventListener('submit', function (e) {

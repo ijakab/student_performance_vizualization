@@ -76,6 +76,9 @@ class Analyzer {
             }
         })
         raw.sort(function(a, b){return a.x-b.x});
-        return raw
+        return {
+            x: raw.map(d => d.x),
+            y: raw.map(d => d.y)
+        }
     }
 }
