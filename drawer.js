@@ -10,7 +10,8 @@ class Drawer {
             .domain([0, d3.max(data.y)])
             .range([svgH, 0]);
         const svg = this.drawOutline(container, x, y, data.xField, data.yField)
-        this.drawLine(svg, x, y, data.y)
+        // this.drawLine(svg, x, y, data.y)
+        this.drawPoints(svg, x, y, data)
     }
     
     drawLine(svg, x, y, data) {
@@ -22,6 +23,16 @@ class Drawer {
             .attr("d", valueline(data))
             .style("stroke", "blue")
             .style('fill', 'none');
+    }
+    
+    drawPoints(svg, x, y, data) {
+        for(let i = 0; i < data.x.length; i++) {
+            svg.append('circle')
+                .attr('cx', x(data.x[i]))
+                .attr('cy', y(data.y[i]))
+                .attr('r', 10)
+                .attr('fill', 'black')
+        }
     }
     
     drawOutline(container, x, y, xField, yField) {
