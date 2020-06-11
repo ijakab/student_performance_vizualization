@@ -78,7 +78,9 @@ class Analyzer {
         raw.sort(function(a, b){return a.x-b.x});
         return {
             x: raw.map(d => d.x),
-            y: raw.map(d => d.y)
+            y: raw.map(d => d.y),
+            xField: allFields[field1],
+            yField: allFields[field2]
         }
     }
 }

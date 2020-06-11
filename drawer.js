@@ -9,10 +9,11 @@ class Drawer {
         var y = d3.scale.linear()
             .domain([0, d3.max(data.y)])
             .range([svgH, 0]);
-        const svg = this.drawOutline(container, x, y)
+        console.log(data)
+        const svg = this.drawOutline(container, x, y, data.xField, data.yField)
     }
     
-    drawOutline(container, x, y) {
+    drawOutline(container, x, y, xField, yField) {
         var margin = {top: 20, bottom: 70, left:40, right: 20};
         var width = 500 - margin.left - margin.right;
         var height = 500 - margin.top - margin.bottom;
@@ -35,12 +36,19 @@ class Drawer {
             .scale(y)
             .orient("left")
             .ticks(10);
-        svg.append("g")
+        const xAxisSvg = svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
             .call(xAxis)
-            .selectAll("text")
-            .style("text-anchor", "middle");
+        xAxisSvg.selectAll("text")
+            .style("text-anchor", "middle")
+        xAxisSvg
+            .append("text")
+            .attr("x", 420)
+            .attr("y", -10)
+            .attr("dx", ".71em")
+            .style("text-anchor", "end")
+            .text(xField);
         svg.append("g")
             .attr("class", "y axis")
             .call(yAxis)
@@ -49,7 +57,7 @@ class Drawer {
             .attr("y", 6)
             .attr("dy", ".71em")
             .style("text-anchor", "end")
-            .text("Vrijednost");
+            .text(yField);
         
         return svg
     }
