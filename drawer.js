@@ -129,10 +129,18 @@ class Drawer {
             .enter()
             .append("rect")
             .attr("x", function(d, i) { return x(i); })
-            .attr("y", y) .attr("height", function(d) { return height - y(d); })
+            .attr("y", y)
+            .attr("height", function(d) { return height - y(d); })
             .attr("width", barWidth)
             .attr("fill", "blue");
         
+        for(let i = 0; i < Object.keys(dataObj).length; i++) {
+            svg.append("text")
+                .attr("y", svgH-60)
+                .attr('x', x(i) + 20)
+                .text(Object.keys(dataObj)[i])
+        }
+    
         svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + height + ")")
@@ -146,13 +154,6 @@ class Drawer {
         svg.append("g")
             .attr("class", "y axis")
             .call(yAxis);
-        svg.append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("x",0 - (height / 2))
-            .attr("y", 0 - margin.left)
-            .attr("dy", "1em")
-            .style("text-anchor", "middle")
-            .text("Kolicina ponavljanja");
     }}
 
 const drawer = new Drawer()
