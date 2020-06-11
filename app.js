@@ -25,6 +25,7 @@ window.onload = function () {
         const field1 = getSelectValue(numericField1)
         const field2 = getSelectValue(numericField2)
         const data = analyzer.getNumericPoints(field1, field2)
+        console.log(data)
         drawer.drawLineChart(data)
     }, false)
     

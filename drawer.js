@@ -9,8 +9,19 @@ class Drawer {
         var y = d3.scale.linear()
             .domain([0, d3.max(data.y)])
             .range([svgH, 0]);
-        console.log(data)
         const svg = this.drawOutline(container, x, y, data.xField, data.yField)
+        this.drawLine(svg, x, y, data.y)
+    }
+    
+    drawLine(svg, x, y, data) {
+        var valueline = d3.svg.line()
+            .x(function(d) { return x(d); })
+            .y(function(d) { return y(d); });
+        svg.append("path")
+            .attr("class", "line")
+            .attr("d", valueline(data))
+            .style("stroke", "blue")
+            .style('fill', 'none');
     }
     
     drawOutline(container, x, y, xField, yField) {

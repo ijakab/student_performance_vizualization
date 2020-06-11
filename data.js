@@ -3,7 +3,7 @@ const numericFields = {
     Medu: 'Edukacija majke',
     Fedu: 'Edukacija oca',
     traveltime: 'Vrijeme putovanja',
-    studytime: 'Vrijeme u;enja',
+    studytime: 'Vrijeme učenja',
     freetime: 'Slobodno vrijeme',
     goout: 'Vrijeme izlazaka',
     absences: 'Izostanci',
