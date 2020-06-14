@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  web:
+    image: ijakab0/viz-pr
+    ports:
+      - 8080:8080
