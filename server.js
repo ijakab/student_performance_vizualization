@@ -1,6 +1,6 @@
 var fs = require('fs'),
     http = require('http');
-
+/**/
 http.createServer(function (req, res) {
     const file = req.url !== '/' ? req.url : '/index.html'
     fs.readFile(__dirname + file, function (err,data) {
