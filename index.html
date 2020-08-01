@@ -13,23 +13,31 @@
 
     <form class="form-inline" id="filterForm">
         <div class="input-group mb-2 mr-sm-2">
-            <select class="form-control" id="filterFieldSelect">
+            <select class="form-control">
+                <option>Broj godina</option>
+                <option data-val="14" data-field="age">14</option>
+                <option data-val="15" data-field="age">15</option>
+                <option data-val="16" data-field="age">16</option>
+                <option data-val="17" data-field="age">17</option>
+                <option data-val="18" data-field="age">18</option>
             </select>
         </div>
 
         <div class="input-group mb-2 mr-sm-2">
-            <select class="form-control" id="filterOperatorSelect">
-                <option value="equals">Equals</option>
-                <option value="greater than">More than</option>
-                <option value="less than">Less than</option>
+            <select class="form-control">
+                <option>Večina obitelji</option>
+                <option data-val="LE3" data-field="famsize">Manje od 3</option>
+                <option data-val="GT3" data-field="famsize">Više od 3</option>
             </select>
         </div>
 
         <div class="input-group mb-2 mr-sm-2">
-            <input type="text" class="form-control" placeholder="Value" id="filterValueSelect" required>
+            <select class="form-control">
+                <option>Pohađa izvannastavne aktivnosti</option>
+                <option data-val="yes" data-field="activities">Da</option>
+                <option data-val="no" data-field="activities">Ne</option>
+            </select>
         </div>
-
-        <button type="submit" class="btn btn-primary mb-2">Add filter</button>
     </form>
 
     <br>

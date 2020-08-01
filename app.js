@@ -18,7 +18,6 @@ window.onload = function () {
     for(const select of document.getElementsByClassName('numeric-fields')) {
         fillSelectOptions(select, numericFields)
     }
-    fillSelectOptions(filterFieldSelect, allFields)
     
     document.getElementById('numericForm').addEventListener('submit', function (e) {
         e.preventDefault()
@@ -44,10 +43,27 @@ window.onload = function () {
             value: filterValueInput.value
         })
     }, false)
+    
+    document.querySelectorAll('#filterForm select').forEach(select => {
+        select.addEventListener('change', function (e) {
+            const option = getSelectElem(select)
+            if(option.getAttribute('data-field')) {
+                analyzer.addFilter({
+                    field: option.getAttribute('data-field'),
+                    operator: 'equals',
+                    value: option.getAttribute('data-val')
+                })
+            }
+        }, false)
+    })
 }
 
 function getSelectValue(select) {
     return select.options[select.selectedIndex].value
+}
+
+function getSelectElem(select) {
+    return select.options[select.selectedIndex]
 }
 
 function fillSelectOptions(select, fields) {
