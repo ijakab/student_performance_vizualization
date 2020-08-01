@@ -24,6 +24,7 @@ window.onload = function () {
         e.preventDefault()
         const field1 = getSelectValue(numericField1)
         const scatterData = analyzer.getNumericPoints(field1, 'G3')
+        console.log(scatterData)
         const barData = analyzer.getBarData(field1)
         drawer.draw(scatterData, barData)
     }, false)

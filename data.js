@@ -65,14 +65,22 @@ class Analyzer {
     }
     
     getNumericPoints(field1, field2) {
-        const raw = this.getFilteredSubset().map(d => {
-            return {
-                x: d[field1],
-                y: d[field2]
-            }
-        })
+        const raw = []
+        for (const dataSample of this.getFilteredSubset()) {
+            const x = dataSample[field1]
+            const y = dataSample[field2]
+            const existing = raw.find(d => d.x === x && d.y === y)
+            if (existing) existing.count ++
+            else raw.push({
+                x, y,
+                count: 1,
+                sex: dataSample.sex
+            })
+        }
+        
         // raw.sort(function(a, b){return a.x-b.x});
         return {
+            raw: raw,
             x: raw.map(d => d.x),
             y: raw.map(d => d.y),
             xField: allFields[field1],

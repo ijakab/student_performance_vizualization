@@ -134,8 +134,8 @@ class Drawer {
             svg.append('circle')
                 .attr('cx', x(dataX[i]))
                 .attr('cy', y(dataY[i]))
-                .attr('r', 5)
-                .attr('fill', 'black')
+                .attr('r', dataObj.raw[i].count)
+                .attr('fill', dataObj.raw[i].sex === 'F' ? 'red' : 'blue')
         }
         
     }
