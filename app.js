@@ -24,9 +24,16 @@ window.onload = function () {
         e.preventDefault()
         const field1 = getSelectValue(numericField1)
         const scatterData = analyzer.getNumericPoints(field1, 'G3')
-        console.log(scatterData)
         const barData = analyzer.getBarData(field1)
-        drawer.draw(scatterData, barData)
+        drawer.draw(scatterData, barData, 'svgContainer')
+    }, false)
+    
+    document.getElementById('numericForm2').addEventListener('submit', function (e) {
+        e.preventDefault()
+        const field2 = getSelectValue(numericField2)
+        const scatterData = analyzer.getNumericPoints(field2, 'G3')
+        const barData = analyzer.getBarData(field2)
+        drawer.draw(scatterData, barData, 'svgContainer2')
     }, false)
     
     filterForm.addEventListener('submit', function (e) {

@@ -1,6 +1,6 @@
 class Drawer {
-    draw(data, barData) {
-        const container = d3.select('#svgContainer')
+    draw(data, barData, containerId) {
+        const container = d3.select(`#${containerId}`)
         container.html('')
         
         this.drawScatter(data, container, data.xField, data.yField)

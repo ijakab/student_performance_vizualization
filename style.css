@@ -15,3 +15,7 @@ svg text {
 svg g path, svg g line, svg text {
     fill: #8d9217;
 }
+
+#filter-container span {
+    cursor: pointer;
+}
