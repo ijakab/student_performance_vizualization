@@ -13,7 +13,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 6,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -29,7 +29,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 15,
@@ -45,7 +45,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 10,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -61,7 +61,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 2,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -77,7 +77,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -93,7 +93,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 10,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -109,7 +109,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -125,7 +125,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 4,
     'absences': 6,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -141,7 +141,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 0,
-    'G3': 19
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 15,
@@ -157,7 +157,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 1,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -173,7 +173,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -189,7 +189,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 4,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -205,7 +205,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -221,7 +221,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -237,7 +237,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 0,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -253,7 +253,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 4,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -269,7 +269,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 6,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -285,7 +285,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -301,7 +301,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 16,
-    'G3': 5
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -317,7 +317,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 3,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -333,7 +333,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 1,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -349,7 +349,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -365,7 +365,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 1,
     'absences': 2,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -381,7 +381,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -397,7 +397,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -413,7 +413,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 14,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -429,7 +429,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -445,7 +445,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 4,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -461,7 +461,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -477,7 +477,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 16,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -493,7 +493,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -509,7 +509,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 1,
     'absences': 0,
-    'G3': 17
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 15,
@@ -525,7 +525,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 0,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -541,7 +541,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -557,7 +557,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -573,7 +573,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 1,
     'absences': 0,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -589,7 +589,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 2,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 16,
@@ -605,7 +605,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 7,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -621,7 +621,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -637,7 +637,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 1,
     'absences': 8,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -653,7 +653,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 25,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -669,7 +669,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 8,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -685,7 +685,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 15,
@@ -701,7 +701,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 1,
     'absences': 0,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -717,7 +717,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 14,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -733,7 +733,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 8,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -749,7 +749,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 12,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -765,7 +765,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 4,
-    'G3': 20
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 15,
@@ -781,7 +781,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -797,7 +797,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -813,7 +813,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -829,7 +829,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -845,7 +845,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 6,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -861,7 +861,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 0,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -877,7 +877,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 6,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -893,7 +893,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 8,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -909,7 +909,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -925,7 +925,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 4,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -941,7 +941,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -957,7 +957,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 2,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -973,7 +973,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 6,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -989,7 +989,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 6,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1005,7 +1005,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 4,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1021,7 +1021,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -1037,7 +1037,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1053,7 +1053,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 2,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -1069,7 +1069,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1085,7 +1085,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 15,
@@ -1101,7 +1101,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 3,
     'absences': 2,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 15,
@@ -1117,7 +1117,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 12,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -1133,7 +1133,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -1149,7 +1149,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -1165,7 +1165,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 2,
-    'G3': 5
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -1181,7 +1181,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -1197,7 +1197,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 54,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -1213,7 +1213,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 6,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -1229,7 +1229,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 8,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1245,7 +1245,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 0,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -1261,7 +1261,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 1,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1277,7 +1277,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 12,
-    'G3': 5
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -1293,7 +1293,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 2,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -1309,7 +1309,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -1325,7 +1325,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 10,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -1341,7 +1341,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -1357,7 +1357,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -1373,7 +1373,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 6,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -1389,7 +1389,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 4,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 15,
@@ -1405,7 +1405,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -1421,7 +1421,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 12,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -1437,7 +1437,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 3,
     'absences': 18,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -1453,7 +1453,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 15,
@@ -1469,7 +1469,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 4,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 16,
@@ -1485,7 +1485,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -1501,7 +1501,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -1517,7 +1517,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 6,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -1533,7 +1533,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -1549,7 +1549,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -1565,7 +1565,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1581,7 +1581,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 6,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -1597,7 +1597,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 0,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -1613,7 +1613,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 14,
-    'G3': 5
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -1629,7 +1629,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 0,
-    'G3': 17
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 15,
@@ -1645,7 +1645,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -1661,7 +1661,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 26,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -1677,7 +1677,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 15,
@@ -1693,7 +1693,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 10,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -1709,7 +1709,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 8,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -1725,7 +1725,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 15,
@@ -1741,7 +1741,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 6,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -1757,7 +1757,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 4,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -1773,7 +1773,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 3,
     'absences': 6,
-    'G3': 19
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 16,
@@ -1789,7 +1789,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -1805,7 +1805,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 6,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -1821,7 +1821,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 10,
-    'G3': 19
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 15,
@@ -1837,7 +1837,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 8,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -1853,7 +1853,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -1869,7 +1869,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 2,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -1885,7 +1885,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 0,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -1901,7 +1901,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 20,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -1917,7 +1917,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 6,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -1933,7 +1933,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 2,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -1949,7 +1949,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 4,
     'absences': 6,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -1965,7 +1965,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 2,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -1981,7 +1981,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 18,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -1997,7 +1997,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 15,
@@ -2013,7 +2013,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -2029,7 +2029,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -2045,7 +2045,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 2,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -2077,7 +2077,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 8,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 15,
@@ -2125,7 +2125,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 12,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -2141,7 +2141,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 1,
     'absences': 16,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -2221,7 +2221,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -2237,7 +2237,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 15,
@@ -2269,7 +2269,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 8,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -2285,7 +2285,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -2301,7 +2301,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -2333,7 +2333,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 0,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 15,
@@ -2365,7 +2365,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -2397,7 +2397,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -2429,7 +2429,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 6,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 15,
@@ -2445,7 +2445,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 1,
     'absences': 8,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 19,
@@ -2477,7 +2477,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 1,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 15,
@@ -2493,7 +2493,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 17,
@@ -2509,7 +2509,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 8,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -2525,7 +2525,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 5,
     'absences': 6,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -2541,7 +2541,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 2,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -2557,7 +2557,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 4,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -2589,7 +2589,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 6,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -2621,7 +2621,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -2637,7 +2637,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 0,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -2653,7 +2653,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 16,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -2669,7 +2669,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -2685,7 +2685,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 0,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -2717,7 +2717,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 0,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -2749,7 +2749,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -2765,7 +2765,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -2797,7 +2797,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 4,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -2813,7 +2813,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 4,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -2829,7 +2829,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -2845,7 +2845,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 4,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -2861,7 +2861,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 10,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -2877,7 +2877,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -2893,7 +2893,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 10,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -2909,7 +2909,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 2,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -2925,7 +2925,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 0,
-    'G3': 17
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 17,
@@ -2941,7 +2941,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 56,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -2957,7 +2957,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 14,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -2973,7 +2973,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 12,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -2989,7 +2989,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -3005,7 +3005,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -3021,7 +3021,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 6,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -3037,7 +3037,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 3,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -3053,7 +3053,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 10,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -3069,7 +3069,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -3085,7 +3085,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 12,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -3101,7 +3101,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 8,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -3117,7 +3117,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -3133,7 +3133,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -3149,7 +3149,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 4,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -3165,7 +3165,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 8,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3181,7 +3181,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 24,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 16,
@@ -3197,7 +3197,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -3213,7 +3213,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 2,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -3229,7 +3229,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 6,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3245,7 +3245,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3261,7 +3261,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 18,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -3277,7 +3277,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 6,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3293,7 +3293,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 28,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 16,
@@ -3309,7 +3309,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 5,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 16,
@@ -3325,7 +3325,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 10,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -3341,7 +3341,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 6,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3357,7 +3357,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 6,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 19,
@@ -3373,7 +3373,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 10,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 17,
@@ -3389,7 +3389,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 13,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -3405,7 +3405,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 0,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -3421,7 +3421,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 15,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -3437,7 +3437,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 1,
     'absences': 12,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3453,7 +3453,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -3469,7 +3469,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 22,
-    'G3': 4
+    'G3': 1
 }, {
     'sex': 'M',
     'age': 18,
@@ -3485,7 +3485,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 13,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -3501,7 +3501,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 3,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -3517,7 +3517,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3533,7 +3533,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 5,
     'absences': 2,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -3565,7 +3565,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 1,
     'absences': 2,
-    'G3': 17
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 18,
@@ -3581,7 +3581,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -3597,7 +3597,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -3613,7 +3613,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 16,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -3629,7 +3629,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 10,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -3645,7 +3645,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -3661,7 +3661,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 14,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3677,7 +3677,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 10,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3693,7 +3693,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 14,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -3709,7 +3709,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -3725,7 +3725,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 14,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -3741,7 +3741,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 2,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 16,
@@ -3757,7 +3757,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 18,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -3773,7 +3773,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 10,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -3789,7 +3789,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 4,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 16,
@@ -3805,7 +3805,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 20,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -3821,7 +3821,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 1,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -3853,7 +3853,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 14,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -3869,7 +3869,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 16,
@@ -3901,7 +3901,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -3933,7 +3933,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 6,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 17,
@@ -3949,7 +3949,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 4,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 22,
@@ -3965,7 +3965,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 16,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 18,
@@ -3981,7 +3981,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 8,
-    'G3': 5
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -3997,7 +3997,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -4013,7 +4013,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 0,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -4029,7 +4029,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 6,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -4045,7 +4045,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 5,
     'absences': 4,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 16,
@@ -4061,7 +4061,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 17,
@@ -4077,7 +4077,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -4093,7 +4093,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -4109,7 +4109,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 6,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 19,
@@ -4125,7 +4125,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 1,
     'absences': 12,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -4141,7 +4141,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 8,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -4173,7 +4173,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 21,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 18,
@@ -4189,7 +4189,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 18,
@@ -4205,7 +4205,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 1,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -4221,7 +4221,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 4,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4253,7 +4253,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 5,
     'absences': 13,
-    'G3': 17
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 17,
@@ -4269,7 +4269,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4285,7 +4285,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 8,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -4301,7 +4301,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 10,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4333,7 +4333,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 15,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4349,7 +4349,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 4,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -4365,7 +4365,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -4381,7 +4381,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 2,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -4397,7 +4397,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -4413,7 +4413,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 6,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4429,7 +4429,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 1,
     'absences': 75,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -4445,7 +4445,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 22,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4461,7 +4461,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 15,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 18,
@@ -4477,7 +4477,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 8,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -4493,7 +4493,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 4,
     'absences': 30,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 17,
@@ -4509,7 +4509,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 19,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4525,7 +4525,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 1,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4541,7 +4541,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -4557,7 +4557,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -4573,7 +4573,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -4589,7 +4589,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 5,
-    'G3': 19
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 17,
@@ -4605,7 +4605,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 6,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -4621,7 +4621,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 6,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -4637,7 +4637,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 9,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -4653,7 +4653,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 11,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -4669,7 +4669,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -4685,7 +4685,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 12,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -4701,7 +4701,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 6,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 18,
@@ -4717,7 +4717,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 8,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -4733,7 +4733,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -4765,7 +4765,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 10,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 18,
@@ -4781,7 +4781,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -4797,7 +4797,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 2,
     'absences': 5,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -4813,7 +4813,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 14,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -4829,7 +4829,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 1,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -4845,7 +4845,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -4861,7 +4861,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 0,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 19,
@@ -4877,7 +4877,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 20,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -4893,7 +4893,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 8,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 20,
@@ -4909,7 +4909,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 3,
     'absences': 0,
-    'G3': 18
+    'G3': 5
 }, {
     'sex': 'M',
     'age': 19,
@@ -4925,7 +4925,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 38,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 19,
@@ -4941,7 +4941,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 3,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -4957,7 +4957,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 18,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -4989,7 +4989,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 1,
     'absences': 20,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 19,
@@ -5005,7 +5005,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 2,
     'absences': 3,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -5021,7 +5021,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 22,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -5037,7 +5037,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 14,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 19,
@@ -5053,7 +5053,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 2,
     'absences': 40,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -5085,7 +5085,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 9,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5101,7 +5101,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -5117,7 +5117,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5133,7 +5133,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 23,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -5149,7 +5149,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 12,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5165,7 +5165,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 3,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5181,7 +5181,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 1,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -5197,7 +5197,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -5213,7 +5213,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 3,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -5229,7 +5229,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 5,
     'absences': 3,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 17,
@@ -5245,7 +5245,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 8,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5261,7 +5261,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 7,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5277,7 +5277,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -5293,7 +5293,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 2,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 17,
@@ -5309,7 +5309,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 7,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -5373,7 +5373,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 16,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 19,
@@ -5389,7 +5389,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 12,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -5421,7 +5421,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 7,
-    'G3': 17
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 17,
@@ -5437,7 +5437,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -5453,7 +5453,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -5485,7 +5485,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 11,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -5517,7 +5517,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -5533,7 +5533,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 7,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -5549,7 +5549,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 9,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -5565,7 +5565,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 0,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5581,7 +5581,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -5597,7 +5597,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 10,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 19,
@@ -5613,7 +5613,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 8,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 17,
@@ -5629,7 +5629,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 4,
     'absences': 2,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -5645,7 +5645,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 7,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 19,
@@ -5661,7 +5661,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 4,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 17,
@@ -5677,7 +5677,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 4,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -5693,7 +5693,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 0,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5709,7 +5709,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 4,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -5725,7 +5725,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 2,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -5741,7 +5741,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -5757,7 +5757,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -5773,7 +5773,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 0,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -5789,7 +5789,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 2,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -5805,7 +5805,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5821,7 +5821,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -5837,7 +5837,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 0,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -5853,7 +5853,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -5869,7 +5869,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 0,
-    'G3': 13
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -5901,7 +5901,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -5917,7 +5917,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 10,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 19,
@@ -5933,7 +5933,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 2,
     'absences': 4,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -5949,7 +5949,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 3,
-    'G3': 12
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5965,7 +5965,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 8,
-    'G3': 11
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 17,
@@ -5981,7 +5981,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 5,
     'absences': 14,
-    'G3': 5
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 18,
@@ -5997,7 +5997,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 4,
     'absences': 0,
-    'G3': 19
+    'G3': 5
 }, {
     'sex': 'F',
     'age': 18,
@@ -6013,7 +6013,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 2,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 20,
@@ -6029,7 +6029,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 4,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 18,
@@ -6045,7 +6045,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 4,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -6061,7 +6061,7 @@ const dataset = [{
     'freetime': 1,
     'goout': 3,
     'absences': 0,
-    'G3': 15
+    'G3': 4
 }, {
     'sex': 'F',
     'age': 17,
@@ -6077,7 +6077,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 4,
     'absences': 17,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 18,
@@ -6093,7 +6093,7 @@ const dataset = [{
     'freetime': 2,
     'goout': 4,
     'absences': 4,
-    'G3': 14
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 18,
@@ -6109,7 +6109,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 5,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 17,
@@ -6125,7 +6125,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 19,
@@ -6157,7 +6157,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 14,
-    'G3': 5
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 18,
@@ -6173,7 +6173,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 3,
     'absences': 2,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'F',
     'age': 18,
@@ -6189,7 +6189,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 3,
     'absences': 7,
-    'G3': 6
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 19,
@@ -6221,7 +6221,7 @@ const dataset = [{
     'freetime': 3,
     'goout': 4,
     'absences': 0,
-    'G3': 8
+    'G3': 2
 }, {
     'sex': 'F',
     'age': 18,
@@ -6253,7 +6253,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 4,
     'absences': 11,
-    'G3': 9
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 17,
@@ -6269,7 +6269,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 5,
     'absences': 3,
-    'G3': 16
+    'G3': 4
 }, {
     'sex': 'M',
     'age': 21,
@@ -6285,7 +6285,7 @@ const dataset = [{
     'freetime': 5,
     'goout': 3,
     'absences': 3,
-    'G3': 7
+    'G3': 2
 }, {
     'sex': 'M',
     'age': 18,
@@ -6301,7 +6301,7 @@ const dataset = [{
     'freetime': 4,
     'goout': 1,
     'absences': 0,
-    'G3': 10
+    'G3': 3
 }, {
     'sex': 'M',
     'age': 19,
@@ -6317,5 +6317,5 @@ const dataset = [{
     'freetime': 2,
     'goout': 3,
     'absences': 5,
-    'G3': 9
+    'G3': 3
 }]

@@ -27,11 +27,7 @@ const allFields = {
 class Analyzer {
     constructor(filterContainer) {
         this.filterContainer = filterContainer
-        this.filters = [{
-            field: 'G3',
-            operator: 'greater than',
-            value: 10
-        }];
+        this.filters = [];
     }
     
     addFilter(filter) {

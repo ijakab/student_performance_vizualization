@@ -23,8 +23,7 @@ window.onload = function () {
     document.getElementById('numericForm').addEventListener('submit', function (e) {
         e.preventDefault()
         const field1 = getSelectValue(numericField1)
-        const field2 = getSelectValue(numericField2)
-        const scatterData = analyzer.getNumericPoints(field1, field2)
+        const scatterData = analyzer.getNumericPoints(field1, 'G3')
         const barData = analyzer.getBarData(field1)
         drawer.draw(scatterData, barData)
     }, false)
