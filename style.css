@@ -1,0 +1,17 @@
+circle {
+    stroke-width:2px;
+    stroke: black;
+}
+
+circle:hover {
+    stroke-width:4px;
+    z-index: 9;
+}
+
+svg text {
+    font-weight: bold;
+}
+
+svg g path, svg g line, svg text {
+    fill: #8d9217;
+}
